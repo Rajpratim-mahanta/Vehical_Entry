@@ -36,10 +36,10 @@
             <button type="button" class="toggle-btn" onclick="register()">Register</button>
         </div>
             
-          <form id="login" class="input-group">
-                <input type="text" class="input-field" placeholder="Employee Id"
+          <form id="login" action="login.php" method="post" class="input-group">
+                <input type="text" class="input-field" placeholder="Employee Id" name="empId"
                 required>
-                <input type="text" class="input-field" placeholder="Enter Password"
+                <input type="text" class="input-field" placeholder="Enter Password" name="pass"
                 required>
                 <input type="checkbox" class="check-box"><span>Remember Password</span >
                 <button type="submit" class="submit-btn">Log In</button>
